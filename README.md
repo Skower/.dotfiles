@@ -1,6 +1,6 @@
 # Dotfiles
 
-It uses stow.
+It uses stow to manage dotfiles.
 
 Dotfiles: 
 - .vimrc
@@ -8,4 +8,4 @@ Dotfiles:
 - .tmux.conf
 - kitty.conf
 
-Thanks toi [ThePrimeagen](https://github.com/ThePrimeagen)
+Thanks to [ThePrimeagen](https://github.com/ThePrimeagen).
