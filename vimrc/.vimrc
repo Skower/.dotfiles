@@ -18,9 +18,12 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 call plug#end()
 
-let ayucolor="dark"
 colorscheme ayu
 set termguicolors
+" Remove theme background (Should be after colorscheme)
+hi Normal guibg=NONE ctermbg=NONE
+hi airline_c  ctermbg=NONE guibg=NONE
+hi airline_tabfill ctermbg=NONE guibg=NONE
 
 let mapleader = " "
 nnoremap <leader><CR> :so ~/.vimrc<CR>
